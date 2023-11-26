@@ -1,1 +1,39 @@
+Question 1 : How to write a Java program to print an int, a double and a char on screen ?
+Answer:
+
+class Upgradcampus{
+public static void main(String[] args){
+int x=5;
+double y=5.23;
+char z='z';
+System.out.println("int :"+x+ "\ntfloat:"+y+"\nchar :"+z);
+	}
+
+}
+
+
+Question 2 :how to print the ASCII value of the character 'h'?
+Answer:
+System.out.println((int)'h');
+
+Question 3 :how to write a program to assign a value of 500.321 to a double variable and then convert it to int?
+Answer: double a=500.321;
+System.out.println((int)'a');
+
+Question 4 :how to write a program to find the square of the number 5?
+Answer:
+System.out.println(5*5);
+
+Question 5:Write a program to print the area of a rectangle of sides 2 and 3 units respectively.
+Answer:
+class Upgradcampus{
+public static void main(String[] args){
+int area = 2*3;
+System.out.println(area);
+
+
+}
+}
+
+
 
