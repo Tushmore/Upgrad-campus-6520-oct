@@ -1,0 +1,67 @@
+Question 1: What are instance variables in Java ?
+
+Instance variable are variables declared within the class body, outside of any method or block, and declared without 'static' keyword.
+
+class Upgradcampus {
+	//instance variable
+	String string1 = 'test string 1';
+}
+
+
+Question 2:What is the difference between primitive variables and reference variables?
+Answer:Reference variables contain a reference to an Object and Primitive variables contain primitive literal values.
+class Upgradcampus {
+	//Primitive variable declaration - var1,
+	//var1 contains literal value 123.
+	int var1 = 123; 
+
+	//Reference variable declaration - var2,
+	//var2 contains reference to object of type 'Box'.
+	Box var2 = new Box(); 
+}
+
+Question 3: What are static variables in Java?
+Answer:Static variables (or fields) are variables declared within the class body, outside of any methods or blocks, and declared with 'static' keyword
+
+class Upgradcampus {
+	//Static variable
+	static String string1 = 'test string 1';
+}
+
+Question 4 :What are local variables in Java?
+Local variables are variables declared within a method body.
+Coding Example:
+class Upgradcampus {
+	void practice() {
+		//Local variable 
+    String Name= "Tushar More";
+		int Marks = 100;
+
+
+	}
+}
+
+Question 5 :How to Declare Variables in Java?
+Answer: 1st i need to declare variable after that i need intialize some value to that variable and in the last use of that variable
+
+Coding example
+
+//Declaring variable
+String Name;
+int roll;
+int marks;
+
+//intializing the value to the variables
+
+Name="Tushar More";
+roll=10;
+marks=99;
+
+//use to the variable
+System.out.println(Name);
+System.out.println(roll);
+System.out.println(marks);
+
+
+
+
